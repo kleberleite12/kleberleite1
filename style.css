@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/*Definindo a fonte padrão, margens e padding */
+*{font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+header {
+    background-color: darkgreen;
+    padding: 20px;
+    text-align: center;
+
+}
+h1 {
+    color: white
+}
+/* centralizando todos os textos e definindo a largura de 50%*/
+.texto-principal {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    line-height: 1.6; 
+}
+
+.texto-inicial {
+    width: 50%;  
+    margin: 0 auto; 
+    padding: 20px;
+    line-height: 1.6; 
+}
+
+.texto-formacao {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    line-height: 1.6; 
+}
+
+.texto-portfolio {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.texto-contato {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    line-height: 1.6; 
+}
+/*Definindo o menu de navegação, alinhado no centro*/
+nav >
+ul {
+    list-style-type: none;
+    padding: 10;
+    display:flex;
+    justify-content: center;
+        }
+
+nav ul li {
+    margin: 0 60px;
+        }
+
+nav ul li a {
+    text-decoration:none;
+    color: #060606;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+        }
+      
+      
+li a:hover {
+    background-color: #555;
+    color: white;
+      }
+
+p {
+        font-size: 15px; 
+        line-height: 1.5; 
+        text-align: justify; 
+        margin: 20px 0;
+        color: #333;
+    }
+/*Abaixo posiciono todas as imagens*/    
+.imagem-inicial {
+        position: absolute;
+        top: 100;
+        right: 150;
+        margin: 0px;
+        width: 230px; 
+        height: auto;
+    }
+
+.imagem-formacao {
+        position: absolute;
+        top: 100;
+        right: 150;
+        margin: 0px;
+        width: 400px; 
+        height: auto;
+    }
+.imagem-portfolio {
+            position: absolute;
+            top: 100;
+            right: 150;
+            margin: 0px;
+            width: 300px; 
+            height: auto;
+
+    }   
+.imagem-contato {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 250px;
+        width: 400px; 
+        height: auto;
+    }
+   
+.imagem-kleber {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 100px;
+    width: 200px; 
+    height: auto;
+}
+
+body {
+        background-color:#cfc9c9;
+    }
+/*Estilização do formulário*/
+form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 50px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        
+    }
+    
